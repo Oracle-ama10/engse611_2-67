@@ -1,0 +1,146 @@
+/* Set background and font for the body */
+body {
+    background-color: #86bbdf; /* Light blue background for a calm appearance */
+    font-family: Verdana, sans-serif;
+    color: #c21111; /* Dark gray for readability */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 10px;
+}
+
+/* Style the main heading */
+h1 {
+    background-color: rgb(245, 172, 15);
+    color: rgb(247, 0, 0);
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fd0000; /* Blue color for the main title */
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+    flex: 1;
+    border: 1px solid black;
+    color: #ff000053; /* Chocolate color for subheadings */
+}
+
+/* Style the horizontal rule */
+hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Style subheadings */
+h2 {
+    background-color: rgb(255, 242, 204);
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid black;
+    color: #ff000053; /* Chocolate color for subheadings */
+    font-family: Georgia, serif;
+    font-size: 1.8em;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    background-color: rgb(213, 232, 212);
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid black;
+    color: #1500ff53; /* Chocolate color for subheadings */
+    font-family: Georgia, serif;
+    font-size: 1.8em;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Style paragraph text */
+p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+/* Style unordered and ordered lists */
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Style links */
+a {
+    color: #2a7ae2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style images */
+img {
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #ff0000;
+    margin-top: 20px;
+}
+
+.header {
+    background-color: rgb(245, 172, 15);
+    color: rgb(247, 0, 0);
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Row container */
+.row {
+    display: flex;
+    margin: 10px 0;
+}
+
+/* Column styling */
+.column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+/* Specific column background colors */
+.class {
+    background-color: rgb(255, 242, 204);
+}
+
+.favorite {
+    background-color: rgb(255, 242, 204);
+}
+
+.mood {
+    background-color: rgb(166, 219, 219);
+}
+
+.fun {
+    background-color: rgb(213, 232, 212);
+}
