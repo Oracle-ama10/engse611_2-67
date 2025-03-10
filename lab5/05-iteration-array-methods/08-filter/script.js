@@ -16,15 +16,15 @@ numbers.forEach((number) => {
 });
 
 const companies = [
-  { name: 'Company Alpha', category: 'Healthcare', start: 1995, end: 2020 },
-  { name: 'Company Beta', category: 'Education', start: 2000, end: 2018 },
-  { name: 'Company Gamma', category: 'Technology', start: 2010, end: 2022 },
-  { name: 'Company Delta', category: 'Retail', start: 1985, end: 2005 },
-  { name: 'Company Epsilon', category: 'Finance', start: 1990, end: 2010 },
-  { name: 'Company Zeta', category: 'Healthcare', start: 2005, end: 2021 },
-  { name: 'Company Eta', category: 'Retail', start: 1998, end: 2015 },
-  { name: 'Company Theta', category: 'Auto', start: 1980, end: 1995 },
-  { name: 'Company Iota', category: 'Technology', start: 2015, end: 2025 },
+  { name: 'A corp', category: 'Time', start: 100, end: 200 },
+  { name: 'B corp', category: 'Space', start: 200, end: 800 },
+  { name: 'C corp', category: 'Heath', start: 800, end: 1100 },
+  { name: 'D corp', category: 'food', start: 1100, end: 1300 },
+  { name: 'E corp', category: 'Resourse', start: 1300, end: 1500 },
+  { name: 'F corp', category: 'Monster', start: 1500, end: 1700 },
+  { name: 'G corp', category: 'Music', start: 1700, end: 1800 },
+  { name: 'H corp', category: 'sport', start: 1800, end: 2022 },
+  { name: 'I corp', category: 'God singer', start: 2022, end: 2025 },
 ];
 
 // Get only retail companies
