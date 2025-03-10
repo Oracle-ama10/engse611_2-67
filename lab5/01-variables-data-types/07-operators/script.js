@@ -1,46 +1,18 @@
 
-// + - 
-// * /
-// div mod
-// ()
-//left to right
 
+console.log(1+2*2-3);
 
-//console.log( (1+2)*2-3 );
+console.log(2=="2"); //convert to same type first
+console.log(2==="2"); //that not convert to same type
 
-//console.log( 6 == 0 );
+if (2=='2') console.log("sure")
+else console.log("not sure")
 
+if (!(2==='2')) console.log(" sure"); //NOT
+else console.log("not sure")
 
+if (false && true) console.log("sure"); //AND
+else console.log("not sure")
 
-//console.log(2 == '2') // convert to sane type
-//console.log(2 === '2') // not convert to sane type
-
-//if (2 == '2') console.log("OK");
-
-//if ( !(2 === '2') ) console.log("Not tobe OK");
-
-
-//AND
-//0 0 = 0
-//0 1 = 0
-//1 0 = 0
-//1 1 = 1
-
-//OR
-//0  0 = 0
-//0  1 = 1
-//1  0 = 1
-//1  1 = 1
-
-//Not 
-//! 0 = 1
-//if (true && true ) console.log("OK");
-
-//if (false && false ) console.log("OR OK");
-
-//(3);
-
-if ( ( 1 == '1' ) && ( 3 == '3') && ( 4 === '4' ) ) console.log("AND OK");
-    console.log("OK");
-else
-    console.log("NOT OK");
+if (false || true) console.log("sure"); //OR
+else console.log("not sure")
