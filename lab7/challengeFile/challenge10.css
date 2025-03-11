@@ -1,0 +1,7 @@
+#animateMe {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    transition: width 2s, height 2s, background-color 2s;
+}
